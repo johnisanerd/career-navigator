@@ -469,7 +469,7 @@ First check if the Apify MCP is already connected. It may be in a deferred state
    - Paste the token into **Apify token (Required)**
    - Set **Enabled tools** to this exact string (comma-separated, no spaces):
 
-     `call-actor,get-actor-run,get-dataset-items,cheapget/best-job-search`
+     `call-actor,get-actor-run,get-dataset-items,johnvc/linkedin-jobs-api`
 
    - **Save**, turn the connector **on**, start a **new chat** so MCP tools load
 
