@@ -25,7 +25,7 @@ Use this order for **Indeed**, **Apify**, **Gmail**, **Microsoft 365**, **Google
 | Category | Placeholder | Primary in-repo / host path | Other options |
 |----------|-------------|----------------------------|---------------|
 | Career | `~~career` | **Indeed** MCP — Claude **Connectors** → **Indeed** → **Connect** → browser OAuth (`search_jobs`, `get_job_details`; connector URL `https://mcp.indeed.com/claude/mcp`) | LinkedIn, Glassdoor, Monster, ZipRecruiter, Dice, Handshake |
-| Salary benchmarks | — | **Apify** MCP via Claude **Desktop** connector; **Enabled tools:** `call-actor,get-actor-run,get-dataset-items,cheapget/best-job-search` | Future MCPs; skills should degrade gracefully if Apify is off |
+| Salary benchmarks | — | **Apify** MCP via Claude **Desktop** connector; **Enabled tools:** `call-actor,get-actor-run,get-dataset-items,johnvc/linkedin-jobs-api` | Future MCPs; skills should degrade gracefully if Apify is off |
 | Storage | `~~storage` | **Google Drive:** recommended **Drive app sync** (or manual backup/restore) for job files (PDF/DOCX/etc.). **OneDrive:** recommended **OneDrive app sync** (or manual backup/restore) for job files (plugin JSON artifacts aren’t reliably file-accessible via Claude’s Microsoft 365 connector). **Dropbox:** recommended **Dropbox app sync** (or manual backup/restore) for job files. | Local filesystem fallback in `{user_dir}` |
 | Inbox / Outlook (read) | `~~inbox` | **Gmail** and/or **Microsoft 365** first-party connectors (below) | Future: other hosts’ email MCPs if documented |
 | Calendar (Google) | — | **Google Calendar** first-party connector (below) | Outlook/Teams calendar via **Microsoft 365** where enabled |
