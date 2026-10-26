@@ -256,7 +256,7 @@ See [CONNECTORS.md](CONNECTORS.md) for setup and fallback behavior.
 5. Paste your token into **Apify token (Required)**.
 6. In **Enabled tools**, replace the default with this exact comma-separated list (no spaces):
 
-   `call-actor,get-actor-run,get-dataset-items,cheapget/best-job-search`
+   `call-actor,get-actor-run,get-dataset-items,johnvc/linkedin-jobs-api`
 
 7. Click **Save**, ensure the connector is **enabled**, then **start a new chat** so tools load.
 
